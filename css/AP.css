@@ -45,12 +45,43 @@ body{
 	color: grey;
 }
 
+/**navbar-images**/
+#man-img {
+	background: url('../images/men.png') no-repeat; 
+	width: 25px;
+	height: 25px;
+	margin:10px;
+	margin-bottom: 5px;
+}
+
+
+#woman-img {
+	background: url('../images/women.png') no-repeat; 
+	width: 25px;
+	height: 25px;
+	padding-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+}
+
+
+#kids-img {
+	background: url('../images/kids.png') no-repeat; 
+	width: 25px;
+	height: 25px;
+	margin:10px;
+	margin-bottom: 5px;
+}
+
+
+
 
 /** Carousel**/
  .carousel-inner > .item > img,
  .carousel-inner > .item > a > img {
-      width: 70%;
-      height: 200px;
+      width: 90%;
+      height: 300px;
       margin: auto;
   }
 
