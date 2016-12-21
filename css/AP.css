@@ -80,12 +80,33 @@ body{
 /** Carousel**/
  .carousel-inner > .item > img,
  .carousel-inner > .item > a > img {
-      width: 90%;
-      height: 300px;
+ 	  width: 90%;
+      height: 400px;
       margin: auto;
   }
 
+  #menslides {
+	background: url('../images/mens.jpg') no-repeat; 
+	width: 100%;
+	height: 400px;
+	}
+  #womenslides {
+	background: url('../images/womens.jpg') no-repeat; 
+	width: 100%;
+	height: 400px;
+	}
+  #kidslides1 {
+	background: url('../images/kids.jpg') no-repeat; 
+	width: 100%;
+	height: 400px;
+	}
+  #kidslides2 {
+	background: url('../images/kidsw1.jpg') no-repeat; 
+	width: 100%;
+	height: 400px;
+	}
 
+/** Tiles **/
   #men-tile, #women-tile, #kids-tile, #map-tile {
   height: 250px;
   width: 100%;
